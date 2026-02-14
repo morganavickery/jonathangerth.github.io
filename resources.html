@@ -5,7 +5,7 @@
 
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>Publications Database</title>
+  <title>Open-Access Resources</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -23,13 +23,6 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Main CSS Files -->
-  <link href="assets/css/global.css" rel="stylesheet">
-  <link href="assets/css/index.css" rel="stylesheet">
-  <link href="assets/css/navigation.css" rel="stylesheet">
-  <link href="assets/css/database.css" rel="stylesheet">
-
-
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
@@ -42,32 +35,39 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
 
+  <!-- Custom CSS Files -->
+  <link href="assets/css/index.css" rel="stylesheet">
+  <link href="assets/css/global.css" rel="stylesheet">
+  <link href="assets/css/navigation.css" rel="stylesheet">
+  <link href="assets/css/resources.css" rel="stylesheet">
+
   <!-- Custom JS Files -->
      <script src="assets/js/global.js" defer></script>
-
   <script src="assets/js/index.js" defer></script>
   <script src="assets/js/index-content.js" defer></script>
   <script src="assets/js/index-preferences.js" defer></script>
   <script src="assets/js/navigation.js" defer></script>
   <script src="assets/js/navigation-content.js" defer></script>
-  <script src="assets/js/database.js" defer></script>
+
+  <script src="assets/js/resources.js" defer></script>
+
+
 </head>
 
-<body class="database-page">
+<body class="resources-page">
   <div id="navigation-include"></div>
   <main class="main">
+    <!-- Resources (secondary) -->
+    <section id="hero-resources" class="hero secondary">
+      <div class="container">
+        <h1 id="page-title-res">Open-Access Resources</h1>
+      </div>
+    </section>
 
-<!-- Database (secondary) -->
-<section id="hero-database" class="hero secondary">
-  <div class="container">
-    <h1 id="page-title-db">Publications Database</h1>
-  </div>
-</section>
 
-
-    <!-- Publication cards rendered from CSV database -->
-    <section class="database-container content-container">
-      <div id="database-cards" class="cards-container"></div>
+    <!-- Resource cards populated by resources.js -->
+    <section class="resource-container">
+      <div id="resource-cards" class="cards-container"></div>
     </section>
 
 
