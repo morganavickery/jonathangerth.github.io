@@ -20,6 +20,8 @@ You’ll create your own copy of this template and publish it for free with GitH
 
 
 
+
+
 1. Create a free account at **github.com** (if you don’t have one).
 2. Open this template’s repository and click **Fork**(top-right). \n This makes a copy under your account that you control.
 
@@ -33,6 +35,8 @@ You’ll create your own copy of this template and publish it for free with GitH
 * If you prefer a sub-path (e.g., `https://YOURNAME.github.io/portfolio/`), you can keep any repo name.
 
 ## **C. Publish with GitHub Pages**
+
+
 
 
 
@@ -178,6 +182,8 @@ You’ll mostly edit small JSON/CSV files in assets/data. Images live in assets/
 
 
 
+
+
 1. Visit **https://icons.getbootstrap.com** and search for an icon.
 2. Copy its name (looks like `bi-lightbulb`, `bi-kanban`, `bi-rocket`).
 3. In your project item, set `"icon": "bi-rocket"`. \n That’s it—the icon will appear automatically.
@@ -220,6 +226,8 @@ You’ll mostly edit small JSON/CSV files in assets/data. Images live in assets/
 * **Mobile nav background** — background color of the mobile menu
 
 ## **How to change colors**
+
+
 
 
 
@@ -298,6 +306,8 @@ Powers the full publications **table** on the Publications page (`database.html`
 ```
 
 ## Easiest way to edit
+
+
 
 
 
@@ -417,6 +427,8 @@ Powers the **Resources** page (`resources.html`). You can list normal resources 
 
 
 
+
+
 1. Push your changes to your fork on GitHub.
 2. Go to **Settings → Pages**.
 3. Under **Build and deployment**, choose **Deploy from a branch**.
@@ -426,6 +438,8 @@ Powers the **Resources** page (`resources.html`). You can list normal resources 
    * otherwise `https://YOURNAME.github.io/REPO_NAME/`
 
 # 8) Use your own domain (optional)
+
+
 
 
 
